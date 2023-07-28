@@ -12,7 +12,7 @@
 2.  Open CLI/terminal, change directory to `apache-jena-fuseki-4.8.0/` of this repository
 3. Make sure the contents of the `apache-jena-fuseki-4.8.0\DB` directory is empty. If not, delete the contents inside.
 4. Run this command:
-``` java -Xmx3500M -jar fuseki-server.jar --update --config=config3.ttl  ```
+``` java -jar fuseki-server.jar --update --config=config3.ttl  ```
 4a. The `--config=config3.ttl` will make two empty datasets on the Fuseki session. We will use this and fill the datasets with our Protege ontology (.owl) files. In this case, we are going to use the `ontology-kendaraanlistrik.owl` file.
 5. Open `localhost:3030` on your browser to navigate to Fuseki dashboard
 6. Click `add data` for `/basemodel`
