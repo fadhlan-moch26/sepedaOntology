@@ -1,6 +1,6 @@
 # CrS-sepedaOntology
 ## Requirements for running
-- Apache Jena Fuseki 4.8.0 (`apache-jena-fuseki-4.8.0/`)
+- Apache Jena Fuseki 4.6.1 (`apache-jena-fuseki-4.6.1/`)
 - xampp/PHP 5.6.12
 
 ## Additional requirements
